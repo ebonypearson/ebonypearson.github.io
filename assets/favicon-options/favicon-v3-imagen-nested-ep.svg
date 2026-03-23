@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6" fill="#7054AA"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6" stroke="#7054AA"/>
+  <path d="M16 8C13.2386 8 11 10.2386 11 13C11 15.7614 13.2386 18 16 18C18.7614 18 21 15.7614 21 13C21 10.2386 18.7614 8 16 8ZM16 8C17.6569 8 19 9.34315 19 11C19 12.6569 17.6569 14 16 14C14.3431 14 13 12.6569 13 11C13 9.34315 14.3431 8 16 8Z" stroke="#FFF8F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 8V18" stroke="#FFF8F2" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="16" y="27" font-family="Barlow, Montserrat, sans-serif" font-size="10" font-weight="bold" fill="#FFF8F2" text-anchor="middle" alignment-baseline="baseline">EP</text>
+</svg>
