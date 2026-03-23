@@ -207,7 +207,15 @@ section {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--orange);
-  padding: 0 1.5rem;
+  padding: 0 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.skill-icon {
+  height: 1.4rem;
+  width: auto;
 }
 
 @keyframes marquee {

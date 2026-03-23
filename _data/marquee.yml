@@ -1,9 +1,19 @@
 items:
-  - Cognitive Psychology
-  - NLP
-  - Speech Technology
-  - Applied Research
-  - Data Visualization
-  - Mixed Methods
-  - Clinical Research
-  - Human Language Technology
+  - text: "🧠 Cognitive Psychology"
+    # icons: [jupyter, tensorflow]
+  - text: "💬 NLP"
+    # icons: [huggingface, py]
+  - text: "🎤 Speech Technology"
+    # icons: [ffmpeg, pytorch]
+  - text: "🔬 Applied Research"
+  # - text: "📊 Applied Research (Opt 2)"
+  # - text: "🧪 Applied Research (Opt 3)"
+  # - text: "🎯 Applied Research (Opt 4)"
+  - text: "📊 Data Visualization"
+    # icons: [plotly, matplotlib]
+  - text: "🔄 Mixed Methods"
+    # icons: [r, py]
+  - text: "🏥 Clinical Research"
+    # icons: [jupyter, r]
+  - text: "💭 Human Language Technology"
+    # icons: [huggingface, tensorflow]
