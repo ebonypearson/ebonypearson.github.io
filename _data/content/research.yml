@@ -2,11 +2,9 @@ items:
 
 
 
-  - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
-    published: true
+  - published: true
     title: "Socially indexed phonological variation and lexical competition in speech perception."
     year: "2026"
-    # sort_date: 2026-03-01
     type: Doctoral dissertation
     organization: "[Doctoral dissertation]. Vanderbilt University"
     location: ""
@@ -14,19 +12,96 @@ items:
     link: ""
 
 
-    
+  - published: true
+    year: "2026"
+    title: "Eye-tracking evidence for dialectal co-activation and graded lexical competition."
+    authors: "Pearson, E., Liceralde, V.R.T., & Watson, D.G."
+    organization: "Annual Conference on Human Sentence Processing, Boston, MA, United States."
+    link: ""
+    location: ""
+    type: ""
+
+  - published: true
+    year: "2025"
+    title: "Experience-driven lexical activation across dialect boundaries."
+    authors: "Pearson, E., Liceralde, V.R.T., & Watson, DG. "
+    organization: "Annual Meeting of the Psychonomic Society, Denver, CO, United States."
 
 
-  # - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
-  #   published: true
-  #   title: "Socially indexed phonological variation and lexical competition in speech perception. [Doctoral dissertation]"
-  #   year: "2026"
-  #   # sort_date: 2026-03-01
-  #   # type: Doctoral dissertation
-  #   organization: Vanderbilt University
-  #   location: ""
-  #   authors: "Pearson, E."
-  #   link: ""
+  - published: true
+    year: "2025"
+    title: "Blunted reward prediction error encoding drives diminished motivation to explore in apathy associated with traumatic brain injury."
+    authors: "Hogeveen, J., Campbell, E. M., Aragon, D. F., Pearson, E., Enders, C., Romero, J. D., Brown, L., Campbell, R. A., Gill, D., Quinn, D. K., Husain, M., Mayer, A. R., & Costa, V. D."
+    organization: ""
+
+
+  - published: true
+    year: "2024"
+    title: "A phonetic basis of accent bias in speaker identification technology."
+    authors: "Bakst, S., Pearson, E., Ferrer, L., McLaren, M., & Lawson, A."
+    organization: "Journal of the Acoustical Society of America, 156(4 Suppl.), A103. Annual Meeting of the Acoustical Society of America."
+
+
+  - published: true
+    year: "2023"
+    title: "Evidence for a parallel activation account of dialect processing."
+    authors: " Pearson, E., Liceralde, V.R.T., & Watson, DG."
+    organization: "Architectures and Mechanisms for Language Processing, Prague, Czechia."
+
+  - published: true
+    year: "2023"
+    title: "Word perception across regional dialects."
+    authors: " Pearson, E., Liceralde, V.R.T., Lai, W. & Watson, DG."
+    organization: "Annual Meeting of the Psychonomic Society, San Francisco, CA, United States."
+
+
+  - published: true
+    year: "2023"
+    title: "Exploring the dynamic interplay of text registers and linguistic complexity."
+    authors: "Pearson, E., Perdomo, M., Warren, T., Phillips Galloway, E., James, A., & Watson, D."
+    organization: "Annual Meeting of the Psychonomic Society, San Francisco, CA, United States."
+
+
+  - published: true
+    year: "2023"
+    title: "Stick a pen in it: Greater phonological competition in speakers with the pin-pen merger during eye-tracking"
+    authors: " Pearson, E., Liceralde, V.R.T., Lai, W. G., & Watson, D."
+    organization: "Annual Conference on Architectures and Mechanisms for Language Processing, San Sebastian, Spain."
+
+  - published: true
+    year: "2023"
+    title: "Black Girls Becoming: A consequential space for interrogating truth about Black girlhood."
+    authors: "Joseph, N., Roby, R., Fears, L., Lane-Bonds, & Pearson, E."
+    organization: "Annual Conference of the American Educational Research Association, Chicago, IL, United States."
+
+
+#  . 
+
+# A phonetic basis of accent bias in speaker identification technology. Bakst, S., Pearson, E., Ferrer, L., McLaren, M., & Lawson, A. Journal of the Acoustical Society of America, 156(4 Suppl.), A103. Annual Meeting of the Acoustical Society of America.
+
+# Evidence for a parallel activation account of dialect processing. Pearson, E., Liceralde, V.R.T., & Watson, DG. Architectures and Mechanisms for Language Processing, Prague, Czechia.
+
+# Word perception across regional dialects. Pearson, E., Liceralde, V.R.T., Lai, W. & Watson, DG. Annual Meeting of the Psychonomic Society, San Francisco, CA, United States.
+
+# Exploring the dynamic interplay of text registers and linguistic complexity. Pearson, E., Perdomo, M., Warren, T., Phillips Galloway, E., James, A., & Watson, D. Annual Meeting of the Psychonomic Society, San Francisco, CA, United States.
+
+# Stick a pen in it: Greater phonological competition in speakers with the pin–pen merger during eye-tracking. Pearson, E., Liceralde, V.R.T., Lai, W. G., & Watson, D. Annual Conference on Architectures and Mechanisms for Language Processing, San Sebastian, Spain.
+
+# Black Girls Becoming: A consequential space for interrogating truth about Black girlhood. Joseph, N., Roby, R., Fears, L., Lane-Bonds, & Pearson, E. Annual Conference of the American Educational Research Association, Chicago, IL, United States
+
+
+
+
+#   - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
+#     published: true
+#     title: "Socially indexed phonological variation and lexical competition in speech perception. [Doctoral dissertation]"
+#     year: "2026"
+#     # sort_date: 2026-03-01
+#     # type: Doctoral dissertation
+#     organization: Vanderbilt University
+#     location: ""
+#     authors: "Pearson, E."
+#     link: ""
 
 # Pearson, E., Liceralde, V.R.T., & Watson. Eye-tracking evidence for dialectal co-activation and graded lexical competition. Annual Conference on Human Sentence Processing, Boston, MA, United States.
 
