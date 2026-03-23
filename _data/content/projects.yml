@@ -3,40 +3,47 @@ items:
     published: true
     order: 1
     category: nlp
-    title: Speech & Cognition Interface
+    title: How does digital text exposure shape comprehension outcomes?
+
     organization: SRI STAR Lab × Vanderbilt
     tags:
       - NLP
-      - Cognitive Science
-      - Applied Research
+      - Web Scraping
+      - Text Analysis
+
     link: https://www.sri.com/research/information-and-computing-sciences/speech-technology-and-research/
-    summary: Bridging production speech technology with cognitive models of language comprehension. Investigating how real-world NLP systems can be informed by human perceptual and memory constraints.
+    summary: This project examined how register, linguistic complexity, and reading habits shaped comprehension across different text conditions. We analyzed how variation in linguistic features across digital texts influenced processing outcomes.
+
     source_ref: content/_projects/nlp/01-speech-cognition.md
 
   - id: cognitive-communication-disorders-research
     published: true
     order: 2
     category: cognition
-    title: Cognitive-Communication Disorders Research
+    title: How can speech data and evaluation methods improve AI speech systems?
+
+
     organization: Vanderbilt University Medical Center
     tags:
-      - Clinical
-      - Communication
-      - Neuropsychology
+      - Speech Corpora
+      - Annotation Design
+      - Evaluation Workflows
+
     link: ""
-    summary: Research presented at the International Cognitive-Communication Disorders Conference (ICCDC 2026). Examines language breakdown across neurological populations and implications for clinical assessment.
+    summary: This project focused on how speech data quality, labeling decisions, and evaluation methods shape AI system performance. At SRI’s Speech Technology and Research Lab, I worked on speech data curation, labeling design, and error analysis to help identify where system issues were driven by data, annotation, or signal-processing differences and to support more reliable evaluation workflows.
     source_ref: content/_projects/cognition/02-cognitive-communication.md
 
   - id: memory-language-processing
     published: true
     order: 3
     category: cognition
-    title: Memory & Language Processing
+    title: How can experimental data reveal how people interpret language in real time?
     organization: Vanderbilt University
     tags:
-      - Doctoral Research
-      - Psycholinguistics
-      - Memory
+      - Eye Tracking
+      - Quantitative Analysis
+      - Experimental Design
+
     link: https://www.vanderbilt.edu/psychological_sciences/bio/ebony-pearson
-    summary: Doctoral dissertation research exploring the relationship between memory systems and language comprehension. Combines experimental paradigms, psychometrics, and applied cognitive methodology.
+    summary: This project used eye tracking, survey data, and large-scale behavioral experiments to examine how people process and interpret language in real time. I designed study protocols, managed participant-based data collection, and analyzed large behavioral datasets to identify patterns in human responses through quantitative modeling.
     source_ref: content/_projects/cognition/03-memory-language.md

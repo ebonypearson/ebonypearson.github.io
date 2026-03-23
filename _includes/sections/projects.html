@@ -8,9 +8,8 @@
     {% for project in project_items %}
     <div class="project-card">
       <div class="project-card-top">
-        <!-- <span class="project-num">0{{ forloop.index }}</span>
-        {% if project.link %}<a class="project-ext" href="{{ project.link }}" target="_blank" rel="noopener">↗</a>{% endif %}
-      </div> -->
+        <span class="project-num">0{{ forloop.index }}</span>
+      </div>
       <h3>{{ project.title }}</h3>
       <p class="project-org">{{ project.organization }}</p>
       <p class="project-desc">{{ project.summary }}</p>

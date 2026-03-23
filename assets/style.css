@@ -1119,19 +1119,6 @@ section {
   line-height: 1;
 }
 
-.project-ext {
-  font-family: 'Barlow', sans-serif;
-  font-weight: 700;
-  opacity: 0.35;
-  transition: opacity 200ms, color 200ms;
-  padding-top: 0.4rem;
-}
-
-.project-ext:hover {
-  opacity: 1;
-  color: var(--cyan);
-}
-
 .project-card h3 {
   font-family: 'Barlow', sans-serif;
   font-size: clamp(1rem, 1.6vw, 1.25rem);
