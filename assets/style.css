@@ -85,12 +85,12 @@ section {
 }
 
 .about-text {
-  padding: 4rem 3rem;
+  padding: 2rem 3rem 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   gap: 2rem;
 }
 
@@ -120,6 +120,7 @@ section {
   font-size: clamp(1.1rem, 1.4vw, 1.35rem);
   line-height: 1.75;
   /* max-width: 38ch; */
+  text-align: left;
 }
 
 .callout-tip {
