@@ -5,19 +5,6 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
-collections:
-  research:
-    output: false
-    sort_by: sort_date
-  experience:
-    output: false
-    sort_by: order
-  projects:
-    output: false
-    sort_by: order
-
-collections_dir: content
-
 exclude:
   - .bundle/
   - .sass-cache/
