@@ -1,5 +1,7 @@
 title: Ebony Pearson Portfolio
 description: Portfolio site for Ebony Pearson, Ph.D.
+url: "https://ebonypearson.github.io"
+baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
