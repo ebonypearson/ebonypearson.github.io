@@ -121,28 +121,28 @@ section {
   padding-left: 1rem;
   line-height: 1.5;
 }
-
-
 .about-education {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  /* This keeps the items aligned to the left bar */
+  align-items: flex-start; 
   gap: 0.75rem;
-  border-left: 3px solid var(--pink-acc);
-  padding-left: 1rem;
   
-  /* Shrink to fit the text */
-  width: fit-content; 
-  /* Standard centering */
-  margin: 0 auto; 
-  /* Force centering if parent is Flexbox or Grid */
-  justify-self: center; 
-  align-self: center; 
+  /* The Bar */
+  border-left: 3px solid var(--pink-acc);
+  padding-left: 1.25rem;
+  
+  /* Centering the container itself */
+  margin: 1.5rem auto;
+  width: fit-content; /* Critical: This makes 'margin: auto' work */
+  
+  text-align: left; /* Keeps text left-aligned if it wraps */
 }
 
 .about-edu-item {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start; /* Keeps icons at the top of the text */
   gap: 0.6rem;
-  /* Removed border-left and padding-left from here */
   font-family: 'Barlow', sans-serif;
   font-style: italic;
   font-weight: 700;
@@ -158,6 +158,8 @@ section {
 .about-edu-content {
   display: flex;
   flex-direction: column;
+  /* Ensures the sub-text (span) stays left-aligned */
+  align-items: flex-start; 
 }
 
 .about-edu-content span {
