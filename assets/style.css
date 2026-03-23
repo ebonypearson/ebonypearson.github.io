@@ -207,10 +207,10 @@ section {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--orange);
-  padding: 0 2rem;
+  padding: 0 0.85rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.4rem;
 }
 
 .skill-icon {
