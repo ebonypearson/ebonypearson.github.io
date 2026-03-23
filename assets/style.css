@@ -1064,14 +1064,18 @@ section {
   margin-bottom: 0.35rem;
 }
 
-.publications-authors {
+.publications-meta {
   font-size: 0.85rem;
-  margin-bottom: 0.2rem;
+  margin: 0;
+}
+
+.publications-authors {
+  font-weight: 400;
 }
 
 .publications-venue {
-  font-size: 0.8rem;
-  opacity: 0.6;
+  font-weight: 300;
+  opacity: 0.65;
 }
 
 .publications-type {

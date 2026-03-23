@@ -4,14 +4,17 @@ items:
 
   - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
     published: true
-    title: "Socially indexed phonological variation and lexical competition in speech perception. [Doctoral dissertation]"
+    title: "Socially indexed phonological variation and lexical competition in speech perception."
     year: "2026"
     # sort_date: 2026-03-01
-    # type: Doctoral dissertation
-    organization: Vanderbilt University
+    type: Doctoral dissertation
+    organization: "[Doctoral dissertation]. Vanderbilt University"
     location: ""
     authors: "Pearson, E."
     link: ""
+
+
+    
 
 
   # - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
