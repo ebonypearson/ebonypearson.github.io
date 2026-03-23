@@ -1204,6 +1204,31 @@ section {
   border-radius: 99px;
 }
 
+.contact-email-plain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.contact-email-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+
+.contact-email-plain a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-email-plain a:hover {
+  text-decoration: underline;
+}
+
 .contact-section {
   background: linear-gradient(135deg, var(--contact-grad-start) 0%, var(--contact-grad-end) 100%);
   display: grid;
