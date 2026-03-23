@@ -122,17 +122,27 @@ section {
   line-height: 1.5;
 }
 
+
 .about-education {
   display: grid;
   gap: 0.75rem;
+  border-left: 3px solid var(--pink-acc);
+  padding-left: 1rem;
+  
+  /* Shrink to fit the text */
+  width: fit-content; 
+  /* Standard centering */
+  margin: 0 auto; 
+  /* Force centering if parent is Flexbox or Grid */
+  justify-self: center; 
+  align-self: center; 
 }
 
 .about-edu-item {
   display: flex;
   align-items: flex-start;
   gap: 0.6rem;
-  border-left: 3px solid var(--pink-acc);
-  padding-left: 1rem;
+  /* Removed border-left and padding-left from here */
   font-family: 'Barlow', sans-serif;
   font-style: italic;
   font-weight: 700;
