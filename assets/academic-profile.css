@@ -1,0 +1,202 @@
+.academic-profile-section {
+  background: linear-gradient(180deg, #f5d5d5 0%, #faeaea 100%);
+  padding: 4.5rem 3rem 6rem;
+}
+
+.academic-profile-header {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.academic-profile-header .big-left {
+  font-family: 'Barlow', sans-serif;
+  font-size: clamp(2.4rem, 7vw, 6.5rem);
+  font-weight: 900;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.academic-profile-header .big-left em {
+  color: #d4769a;
+  font-style: italic;
+}
+
+.academic-layout-lead-stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.academic-subsection {
+  background: rgba(255, 248, 242, 0.58);
+  border: 1px solid rgba(92, 56, 38, 0.14);
+  border-radius: 14px;
+  padding: 1.1rem;
+}
+
+.academic-subtitle {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #d4769a;
+  margin-bottom: 0.8rem;
+}
+
+.academic-timeline {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.academic-timeline-item {
+  border-left: 3px solid #d4769a;
+  padding-left: 0.75rem;
+}
+
+.academic-timeline-item h4 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin-bottom: 0.15rem;
+}
+
+.academic-meta {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.academic-contribution-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.academic-contribution-item {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.academic-toggle-title {
+  margin-bottom: 0;
+}
+
+.academic-preview {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.66;
+  margin-top: 0.35rem;
+  margin-bottom: 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.academic-contribution-item .research-toggle > span:first-child {
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  text-transform: uppercase;
+}
+
+.academic-contribution-item .research-icon {
+  color: #d4769a;
+}
+
+.academic-contribution-item .research-panel {
+  transition: max-height 350ms ease;
+}
+
+.academic-contribution-item.open .research-panel {
+  max-height: 280px;
+}
+
+.academic-detail-list {
+  padding-top: 0.45rem;
+  display: grid;
+  gap: 0.42rem;
+}
+
+.academic-detail-list p {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  opacity: 0.84;
+}
+
+.academic-detail-list p span {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d4769a;
+  margin-right: 0.45rem;
+}
+
+.academic-awards-row {
+  margin-top: 1rem;
+}
+
+.academic-awards-row .academic-subtitle {
+  text-align: center;
+}
+
+.academic-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.academic-chips span {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #d4769a;
+  background: #faeaea;
+  color: #5c3826;
+  padding: 0.32rem 0.62rem;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.academic-awards-snippet {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.78;
+}
+
+@media (min-width: 768px) {
+  .academic-layout-lead-stack {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    align-items: start;
+  }
+
+  .academic-education-lead {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .academic-profile-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .academic-profile-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

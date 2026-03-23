@@ -1,0 +1,113 @@
+items:
+  - id: 202603-diss-socially-indexed-phonological-variation-lexical-competition
+    published: true
+    title: "Socially indexed phonological variation and lexical competition in speech perception"
+    year: "2026"
+    sort_date: 2026-03-01
+    type: Doctoral dissertation
+    organization: Vanderbilt University
+    location: ""
+    authors: "Pearson, E."
+    link: ""
+
+  - id: 202603-cp-eye-tracking-dialectal-coactivation
+    published: true
+    title: "Eye-tracking evidence for dialectal co-activation and graded lexical competition"
+    year: "2026"
+    sort_date: 2026-03-27
+    type: Conference presentation
+    organization: Annual Conference on Human Sentence Processing
+    location: "Boston, MA, United States"
+    authors: "Pearson, E., Liceralde, V.R.T., & Watson, D.G."
+    presentation_date: "3/27/2026"
+    link: ""
+
+  - id: 202511-cp-experience-driven-lexical-activation
+    published: true
+    title: "Experience-driven lexical activation across dialect boundaries"
+    year: "2025"
+    sort_date: 2025-11-22
+    type: Conference presentation
+    organization: Annual Meeting of the Psychonomic Society
+    location: "Denver, CO, United States"
+    authors: "Pearson, E., Liceralde, V.R.T., & Watson, D.G."
+    presentation_date: "11/22/2025"
+    link: ""
+
+  - id: 202508-pp-effort-aversion-tbi
+    published: true
+    title: "Blunted reward prediction error encoding drives diminished motivation to explore in apathy associated with traumatic brain injury"
+    year: "2025"
+    sort_date: 2025-08-22
+    type: Preprint
+    organization: medRxiv
+    location: ""
+    authors: "Hogeveen, J., Campbell, E. M., Aragon, D. F., Pearson, E., Enders, C., Romero, J. D., Brown, L., Campbell, R. A., Gill, D., Quinn, D. K., Husain, M., Mayer, A. R., & Costa, V. D."
+    link: "https://doi.org/10.1101/2025.08.22.25334260"
+
+  - id: 202410-ca-accent-bias-speaker-id-tech
+    published: true
+    title: "A phonetic basis of accent bias in speaker identification technology"
+    year: "2024"
+    sort_date: 2024-10-01
+    type: Conference abstract
+    organization: "Journal of the Acoustical Society of America, 156(4 Suppl.), A103. Annual Meeting of the Acoustical Society of America"
+    location: ""
+    authors: "Bakst, S., Pearson, E., Ferrer, L., McLaren, M., & Lawson, A."
+    link: ""
+
+  - id: 202309-cp-parallel-activation-dialect-processing
+    published: true
+    title: "Evidence for a parallel activation account of dialect processing"
+    year: "2023"
+    sort_date: 2023-09-05
+    type: Poster
+    organization: Architectures and Mechanisms for Language Processing
+    location: "Prague, Czechia"
+    authors: "Pearson, E., Liceralde, V.R.T., & Watson, D.G."
+    link: ""
+
+  - id: 202311-cp-word-perception-pin-pen-merger
+    published: true
+    title: "Word perception across regional dialects"
+    year: "2023"
+    sort_date: 2023-11-01
+    type: Poster
+    organization: Annual Meeting of the Psychonomic Society
+    location: "San Francisco, CA, United States"
+    authors: "Pearson, E., Liceralde, V.R.T., Lai, W., & Watson, D.G."
+    link: ""
+
+  - id: 202311-cp-harmony-words-register-complexity
+    published: true
+    title: "Exploring the dynamic interplay of text registers and linguistic complexity"
+    year: "2023"
+    sort_date: 2023-11-02
+    type: Poster
+    organization: Annual Meeting of the Psychonomic Society
+    location: "San Francisco, CA, United States"
+    authors: "Pearson, E., Perdomo, M., Warren, T., Phillips Galloway, E., James, A., & Watson, D."
+    link: ""
+
+  - id: 202309-cp-stick-pen-phonological-competition
+    published: true
+    title: "Stick a pen in it: Greater phonological competition in speakers with the pin–pen merger during eye-tracking"
+    year: "2023"
+    sort_date: 2023-09-02
+    type: Poster
+    organization: Annual Conference on Architectures and Mechanisms for Language Processing
+    location: "San Sebastian, Spain"
+    authors: "Pearson, E., Liceralde, V.R.T., Lai, W. G., & Watson, D."
+    link: ""
+
+  - id: 202304-cp-black-girls-becoming
+    published: true
+    title: "Black Girls Becoming: A consequential space for interrogating truth about Black girlhood"
+    year: "2023"
+    sort_date: 2023-04-13
+    type: Conference presentation
+    organization: Annual Conference of the American Educational Research Association
+    location: "Chicago, IL, United States"
+    authors: "Joseph, N., Roby, R., Fears, L., Lane-Bonds, & Pearson, E."
+    presentation_date: "4/13/2023"
+    link: ""

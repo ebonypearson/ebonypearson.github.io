@@ -1,0 +1,42 @@
+items:
+  - id: speech-cognition-interface
+    published: true
+    order: 1
+    category: nlp
+    title: Speech & Cognition Interface
+    organization: SRI STAR Lab × Vanderbilt
+    tags:
+      - NLP
+      - Cognitive Science
+      - Applied Research
+    link: https://www.sri.com/research/information-and-computing-sciences/speech-technology-and-research/
+    summary: Bridging production speech technology with cognitive models of language comprehension. Investigating how real-world NLP systems can be informed by human perceptual and memory constraints.
+    source_ref: content/_projects/nlp/01-speech-cognition.md
+
+  - id: cognitive-communication-disorders-research
+    published: true
+    order: 2
+    category: cognition
+    title: Cognitive-Communication Disorders Research
+    organization: Vanderbilt University Medical Center
+    tags:
+      - Clinical
+      - Communication
+      - Neuropsychology
+    link: ""
+    summary: Research presented at the International Cognitive-Communication Disorders Conference (ICCDC 2026). Examines language breakdown across neurological populations and implications for clinical assessment.
+    source_ref: content/_projects/cognition/02-cognitive-communication.md
+
+  - id: memory-language-processing
+    published: true
+    order: 3
+    category: cognition
+    title: Memory & Language Processing
+    organization: Vanderbilt University
+    tags:
+      - Doctoral Research
+      - Psycholinguistics
+      - Memory
+    link: https://www.vanderbilt.edu/psychological_sciences/bio/ebony-pearson
+    summary: Doctoral dissertation research exploring the relationship between memory systems and language comprehension. Combines experimental paradigms, psychometrics, and applied cognitive methodology.
+    source_ref: content/_projects/cognition/03-memory-language.md

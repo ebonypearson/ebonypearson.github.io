@@ -1,0 +1,15 @@
+<section class="faq" id="faq">
+  <p class="faq-label">FAQ</p>
+
+  {% for item in site.data.faq %}
+  <div class="faq-item">
+    <button class="faq-q" type="button" aria-expanded="false">
+      <span class="faq-q-text">{{ item.question }}</span>
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-a">
+      <p>{{ item.answer }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</section>

@@ -1,6 +1,3 @@
----
-layout: null
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +8,11 @@ layout: null
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/nav.css">
-  <link rel="stylesheet" href="assets/home.css">
-  <link rel="stylesheet" href="assets/academic-profile.css">
-  <link rel="stylesheet" href="assets/beyond-lab.css">
+  {% if page.page_styles %}
+    {% for stylesheet in page.page_styles %}
+      <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+    {% endfor %}
+  {% endif %}
 </head>
 <body>
   {% include icons/sprite.html %}
@@ -25,6 +24,7 @@ layout: null
       <a href="#contact">Contact</a>
       <a href="#projects">Projects</a>
       <a href="#publications">Publications</a>
+      <!-- <a href="#experience">Experience</a> -->
       <a href="#research-areas">Research Areas</a>
       <a href="#academic-profile">Academic Profile</a>
       <a href="#about">About</a>
@@ -34,15 +34,7 @@ layout: null
   <a class="top-cta" href="#contact">Get in Touch ↗</a>
 
   <div class="page">
-    {% include sections/hero.html %}
-    {% include sections/about.html %}
-    {% include sections/academic-profile.html %}
-    {% include sections/research-areas.html %}
-    {% include sections/projects.html %}
-    {% include sections/marquee.html %}
-    {% include sections/publications.html %}
-    {% include sections/contact-faq.html %}
-    {% include sections/footer.html %}
+    {{ content }}
   </div>
 
   <script>
@@ -94,6 +86,91 @@ layout: null
     initAccordion('.contact-faq-container', '.faq-item', '.faq-q');
     initAccordion('.research-areas', '.research-item', '.research-toggle');
     initAccordion('.academic-profile-accordion', '.research-item', '.research-toggle');
+
+    function initHeroBrainMotion() {
+      const brain = document.querySelector('.hero-brain-img');
+      if (!brain) return;
+
+      const reduceMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const mobileQuery = window.matchMedia('(max-width: 860px)');
+      const coarseQuery = window.matchMedia('(pointer: coarse)');
+
+      let targetRotation = 0;
+      let currentRotation = 0;
+      let lastScrollY = window.scrollY || window.pageYOffset || 0;
+      let ticking = false;
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value));
+      }
+
+      function setRotation(degrees) {
+        brain.style.setProperty('--brain-scroll-rotate', degrees + 'deg');
+      }
+
+      function shouldEnableScrollRotation() {
+        return !reduceMotionQuery.matches && !mobileQuery.matches && !coarseQuery.matches;
+      }
+
+      function animateRotation() {
+        currentRotation += (targetRotation - currentRotation) * 0.2;
+        targetRotation *= 0.9;
+        setRotation(currentRotation.toFixed(2));
+
+        if (Math.abs(currentRotation) < 0.05 && Math.abs(targetRotation) < 0.05) {
+          currentRotation = 0;
+          targetRotation = 0;
+          setRotation(0);
+          ticking = false;
+          return;
+        }
+
+        window.requestAnimationFrame(animateRotation);
+      }
+
+      function onScroll() {
+        if (!shouldEnableScrollRotation()) return;
+
+        const scrollY = window.scrollY || window.pageYOffset || 0;
+        const delta = scrollY - lastScrollY;
+        lastScrollY = scrollY;
+
+        targetRotation = clamp(targetRotation + delta * 0.35, -24, 24);
+
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(animateRotation);
+        }
+      }
+
+      function resetRotation() {
+        currentRotation = 0;
+        targetRotation = 0;
+        setRotation(0);
+      }
+
+      function onModeChange() {
+        if (!shouldEnableScrollRotation()) {
+          resetRotation();
+        }
+      }
+
+      function addQueryListener(mediaQuery, handler) {
+        if (mediaQuery.addEventListener) {
+          mediaQuery.addEventListener('change', handler);
+        } else if (mediaQuery.addListener) {
+          mediaQuery.addListener(handler);
+        }
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      addQueryListener(reduceMotionQuery, onModeChange);
+      addQueryListener(mobileQuery, onModeChange);
+      addQueryListener(coarseQuery, onModeChange);
+      onModeChange();
+    }
+
+    initHeroBrainMotion();
 
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.side-nav nav a');

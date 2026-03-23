@@ -1,0 +1,68 @@
+.beyond-lab-section {
+  background: #ede8f5;
+  padding: 3rem 3rem 4rem;
+}
+
+.beyond-lab-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.beyond-lab-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(112, 84, 170, 0.3);
+  padding: 1.5rem;
+}
+
+.beyond-lab-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #7054aa;
+  margin-bottom: 0.65rem;
+}
+
+.beyond-lab-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.beyond-lab-label {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7054aa;
+  margin-bottom: 0.45rem;
+}
+
+.beyond-lab-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #5c3826;
+}
+
+@media (max-width: 860px) {
+  .beyond-lab-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .beyond-lab-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .beyond-lab-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

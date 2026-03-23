@@ -1,0 +1,184 @@
+<section class="research-explorations" id="research-area-explorations">
+  <div class="research-explorations-header">
+    <p class="research-explorations-kicker">Design Explorations</p>
+    <h2>Three Full Research Areas Variants</h2>
+    <p>
+      Each section below is a full-width, functioning version of Research Areas for side-by-side comparison with the original section above.
+    </p>
+  </div>
+</section>
+
+<section class="experience-section research-areas research-areas-editorial" id="research-areas-editorial">
+  <div class="themes-header">
+    <div class="big-left">Research Areas</div>
+    <div class="big-right-wrap">
+      <div class="research-side-note">
+        <p class="option-label">Option 1</p>
+        <p class="option-title">Editorial Cards</p>
+        <p>Denser cards with chips, method labels, and impact lines to reduce empty space.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="themes-list">
+    {% for theme in site.data.themes %}
+    <article class="theme-item research-item editorial-item{% if forloop.first %} open{% endif %}">
+      <span class="theme-num">{{ theme.num }}</span>
+      <div class="theme-content">
+        <h3 class="research-title">
+          <button class="research-toggle" type="button" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="research-panel-editorial-{{ forloop.index }}">
+            <span>{{ theme.title }}</span>
+            <span class="research-icon" aria-hidden="true">+</span>
+          </button>
+        </h3>
+        <div class="research-panel" id="research-panel-editorial-{{ forloop.index }}">
+          <p class="editorial-subhead">{{ theme.subhead }}</p>
+          <p class="editorial-org">{{ theme.org }}</p>
+          <p>{{ theme.description }}</p>
+          <div class="editorial-chips">
+            {% for keyword in theme.keywords %}
+            <span>{{ keyword }}</span>
+            {% endfor %}
+          </div>
+          <p class="editorial-impact">{{ theme.impact }}</p>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="experience-section research-areas research-areas-split" id="research-areas-split">
+  <div class="split-layout-shell">
+    <aside class="split-rail">
+      <p class="option-label">Option 2</p>
+      <h2>Split Layout Story</h2>
+      <p>
+        A sticky context rail on the left with chapter-like research entries on the right.
+      </p>
+      <ul>
+        <li>Sticky orientation</li>
+        <li>Narrative progression</li>
+        <li>Desktop density</li>
+      </ul>
+    </aside>
+
+    <div class="split-main">
+      <div class="themes-list">
+        {% for theme in site.data.themes %}
+        <article class="theme-item research-item split-item{% if forloop.first %} open{% endif %}">
+          <span class="theme-num">{{ theme.num }}</span>
+          <div class="theme-content">
+            <h3 class="research-title">
+              <button class="research-toggle" type="button" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="research-panel-split-{{ forloop.index }}">
+                <span>{{ theme.title }}</span>
+                <span class="research-icon" aria-hidden="true">+</span>
+              </button>
+            </h3>
+            <div class="research-panel" id="research-panel-split-{{ forloop.index }}">
+              <p class="split-method">{{ theme.method }}</p>
+              <p>{{ theme.description }}</p>
+              <p class="editorial-impact">{{ theme.impact }}</p>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="experience-section research-areas research-areas-hybrid" id="research-areas-hybrid">
+  <div class="themes-header">
+    <div class="big-left">Research Areas</div>
+    <div class="big-right-wrap">
+      <div class="research-side-note">
+        <p class="option-label">Option 3</p>
+        <p class="option-title">Visual + Content Hybrid</p>
+        <p>Small visual markers plus method rows keep the section lively without overwhelming content.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="themes-list hybrid-list">
+    {% for theme in site.data.themes %}
+    <article class="theme-item research-item hybrid-item{% if forloop.first %} open{% endif %}">
+      <span class="theme-num">{{ theme.num }}</span>
+      <div class="theme-content">
+        <h3 class="research-title">
+          <button class="research-toggle" type="button" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="research-panel-hybrid-{{ forloop.index }}">
+            <span><span class="hybrid-mark" aria-hidden="true"></span>{{ theme.title }}</span>
+            <span class="research-icon" aria-hidden="true">+</span>
+          </button>
+        </h3>
+        <div class="research-panel" id="research-panel-hybrid-{{ forloop.index }}">
+          <div class="hybrid-method-row">
+            <span>Method</span>
+            <span>{{ theme.method }}</span>
+          </div>
+          <p>{{ theme.description }}</p>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% assign first_theme = site.data.themes[0] %}
+<section class="experience-section research-areas research-areas-right-panel" id="research-areas-right-panel">
+  <div class="themes-header">
+    <div class="big-left">Research Areas</div>
+    <div class="big-right-wrap">
+      <div class="research-side-note">
+        <p class="option-label">Option 4</p>
+        <p class="option-title">Right-Side Moving Detail Box</p>
+        <p>Click a research area to load its content into the right panel and shift the panel with the selected row.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-panel-layout">
+    <div class="themes-list right-panel-list">
+      {% for theme in site.data.themes %}
+      <article class="theme-item rp-item{% if forloop.first %} open{% endif %}">
+        <span class="theme-num">{{ theme.num }}</span>
+        <div class="theme-content">
+          <h3 class="research-title">
+            <button
+              class="research-toggle rp-toggle"
+              type="button"
+              aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}"
+              data-title="{{ theme.title | escape }}"
+              data-subhead="{{ theme.subhead | escape }}"
+              data-org="{{ theme.org | escape }}"
+              data-method="{{ theme.method | escape }}"
+              data-description="{{ theme.description | escape }}"
+              data-impact="{{ theme.impact | escape }}"
+              data-keywords="{{ theme.keywords | join: '|' | escape }}"
+            >
+              <span>{{ theme.title }}</span>
+              <span class="research-icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <p class="rp-preview">{{ theme.subhead }}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <aside class="right-panel-box" aria-live="polite">
+      <p class="right-panel-kicker">Selected Area</p>
+      <h3 class="right-panel-title">{{ first_theme.title }}</h3>
+      <p class="right-panel-subhead">{{ first_theme.subhead }}</p>
+      <p class="right-panel-org">{{ first_theme.org }}</p>
+      <p class="right-panel-method">{{ first_theme.method }}</p>
+      <p class="right-panel-description">{{ first_theme.description }}</p>
+      <div class="right-panel-chips">
+        {% for keyword in first_theme.keywords %}
+        <span>{{ keyword }}</span>
+        {% endfor %}
+      </div>
+      <p class="right-panel-impact">{{ first_theme.impact }}</p>
+    </aside>
+  </div>
+</section>

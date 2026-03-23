@@ -1,0 +1,50 @@
+<section class="contact-section contact-faq-section" id="contact">
+  <div class="contact-left contact-faq-left">
+    <div class="contact-faq-stack">
+      <h2>Find <em>Ebony.</em></h2>
+      <p>
+        Connect with Ebony for research roles, applied strategy, product-facing work, speaking invitations, or collaboration.
+      </p>
+
+      <div class="contact-right">
+        <div class="contact-top" role="navigation" aria-label="Professional links">
+          {% for link in site.data.contact.links %}
+          <a class="contact-cta" href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.label }} - {{ link.text }}">
+            <span class="contact-cta-icon" aria-hidden="true">
+              <svg role="presentation" focusable="false">
+                {% if link.label == "Connect" %}
+                <use href="#icon-linkedin"></use>
+                {% elsif link.label == "GitHub" %}
+                <use href="#icon-github"></use>
+                {% else %}
+                <use href="#icon-vanderbilt"></use>
+                {% endif %}
+              </svg>
+            </span>
+            <span>
+              <span class="contact-cta-label">{{ link.label }}</span>
+              <span class="contact-cta-text">{{ link.text }}</span>
+            </span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-faq-container" id="faq" aria-label="Frequently asked questions">
+    <h2 class="section-display-title">FAQ</h2>
+
+    {% for item in site.data.faq %}
+    <div class="faq-item">
+      <button class="faq-q" type="button" aria-expanded="false">
+        <span class="faq-q-text">{{ item.question }}</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">
+        <p>{{ item.answer }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

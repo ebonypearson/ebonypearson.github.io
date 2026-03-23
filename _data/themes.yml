@@ -1,0 +1,47 @@
+- num: "01"
+  title: "Language Processing & Comprehension"
+  subhead: How people understand language in real time
+  org: Vanderbilt University
+  description: "I study how people interpret language as it unfolds, from initial perception to comprehension. Using psycholinguistic and behavioral methods, I examine how variation, ambiguity, and cognitive constraints shape understanding and how those linguistic patterns can inform language evaluation, error analysis, and human-centered research."
+  keywords:
+    - Psycholinguistics
+    - Behavioral Research
+    - Language Evaluation
+    - Ambiguity Resolution
+  impact: Reveals how people make sense of variable language input and where communication or language systems may fail.
+
+- num: "02"
+  title: "Speech & Human-Centered Language Technology"
+  subhead: Designing language technology around how people actually communicate
+  org: SRI International
+  description: "I explore how speech and language technologies can better reflect the realities of human communication. My work connects language processing research with applied questions in speech, evaluation, and technology design, with a focus on making systems more interpretable, effective, and responsive to real-world users."
+  keywords:
+    - Speech Technology
+    - Human-Centered Design
+    - System Evaluation
+    - User Experience
+  impact: Helps evaluate whether language technologies work in ways that match human expectations and communicative needs.
+
+- num: "03"
+  title: "Language Experience & Digital Text Exposure"
+  subhead: How language experience shapes understanding and performance
+  org: Vanderbilt University
+  description: "I investigate how exposure to different kinds of language influences comprehension and processing. This work examines how register, linguistic complexity, and digital reading habits shape understanding, using computational tools and behavioral data to connect language patterns with measurable human outcomes."
+  keywords:
+    - Digital Text
+    - Register Variation
+    - Natural Language Processing
+    - Computational Linguistics
+  impact: Supports work in language quality evaluation, readability analysis, and understanding how text variation affects user interpretation.
+
+- num: "04"
+  title: "Memory, Attention & Cognition"
+  subhead: The cognitive systems behind language and information use
+  org: Vanderbilt University
+  description: "My work draws on cognitive psychology to understand the mental systems that support language comprehension, attention, and decision-making. This foundation shapes how I design studies, interpret behavioral data, and analyze how people acquire, store, and use information in both research and applied settings."
+  keywords:
+    - Cognitive Psychology
+    - Attention
+    - Memory
+    - Decision-Making
+  impact: Strengthens my ability to design rigorous evaluations and interpret language behavior through a human-centered lens.

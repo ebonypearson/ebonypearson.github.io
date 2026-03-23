@@ -1,0 +1,20 @@
+<section class="experience-section" id="experience">
+  <div class="themes-header">
+    <div class="big-left">Experience</div>
+  </div>
+
+  <div class="themes-list">
+    {% assign jobs_sorted = site.data.content.experience.items | where: "published", true | sort: "order" %}
+    {% for job in jobs_sorted %}
+    <div class="theme-item">
+      <span class="theme-num">{{ job.dates }}</span>
+      <div class="theme-content">
+        <h3>{{ job.title }}</h3>
+        <p class="theme-org">{{ job.organization }}{% if job.location %} · {{ job.location }}{% endif %}</p>
+        {% if job.summary %}<p class="theme-desc">{{ job.summary }}</p>{% endif %}
+      </div>
+      {% if job.link %}<a class="theme-link" href="{{ job.link }}" target="_blank" rel="noopener" aria-label="{{ job.organization }}">↗</a>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

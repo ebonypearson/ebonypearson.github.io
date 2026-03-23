@@ -1,0 +1,84 @@
+items:
+  - id: sri-international
+    published: true
+    order: 1
+    category: industry
+    title: Speech Technology Researcher
+    organization: SRI International — STAR Lab
+    dates: 2024–Present
+    location: Remote
+    link: https://www.sri.com/research/information-and-computing-sciences/speech-technology-and-research/
+    summary: Natural language processing and human language technology research at SRI's Speech Technology and Research (STAR) Laboratory. Applied work at the intersection of cognitive science and production-grade AI — building systems that understand and respond to human speech and language.
+    source_ref: content/_experience/industry/01-sri-international.md
+
+  - id: vanderbilt-phd
+    published: true
+    order: 2
+    category: academia
+    title: Ph.D. Candidate, Cognitive Psychology
+    organization: Vanderbilt University
+    dates: 2021–Present
+    location: Nashville, TN
+    link: https://www.vanderbilt.edu/psychological_sciences/bio/ebony-pearson
+    summary: Doctoral research in the Department of Psychological Sciences focused on memory, language processing, and human perception. Expected completion 2026. Training at the intersection of experimental methodology, psychometrics, and applied cognitive science.
+    source_ref: content/_experience/academia/02-vanderbilt-phd.md
+
+  - id: psychology-thinking-ta
+    published: true
+    order: 2.1
+    category: academia
+    title: Teaching Assistant
+    organization: PSY-PC 2200-01 Psychology of Thinking
+    dates: Spring 2025
+    location: ""
+    link: ""
+    summary: Teaching assistant for PSY-PC 2200-01, supporting course instruction, student learning, and class operations.
+    source_ref: content/_experience/academia/05-psychology-of-thinking-ta.md
+
+  - id: minds-brains-contexts-cultures-ta-fall-2025
+    published: true
+    order: 2.2
+    category: academia
+    title: Teaching Assistant
+    organization: PSY-PC 1205-02 Minds, Brains, Contexts, and Cultures
+    dates: Fall 2025
+    location: ""
+    link: ""
+    summary: Teaching assistant for PSY-PC 1205-02, facilitating coursework and student engagement in cognitive and cultural psychology topics.
+    source_ref: content/_experience/academia/06-minds-brains-contexts-cultures-ta-fall-2025.md
+
+  - id: minds-brains-contexts-cultures-ta-spring-2026
+    published: true
+    order: 2.3
+    category: academia
+    title: Teaching Assistant
+    organization: PSY-PC 1205-01 Minds, Brains, Contexts, and Cultures
+    dates: Spring 2026
+    location: ""
+    link: ""
+    summary: Teaching assistant for PSY-PC 1205-01, supporting discussion, assignments, and student learning outcomes.
+    source_ref: content/_experience/academia/07-minds-brains-contexts-cultures-ta-spring-2026.md
+
+  - id: genesis-neuroscience
+    published: true
+    order: 3
+    category: industry
+    title: Clinical Research Assistant
+    organization: Genesis Neuroscience Clinic
+    dates: 2020–2021
+    location: Nashville, TN
+    link: ""
+    summary: Clinical and applied research in a neuroscience context. Working with real patient data and high-stakes environments — developing the ability to draw clean, defensible conclusions from complex, human-generated evidence.
+    source_ref: content/_experience/industry/03-genesis-neuroscience.md
+
+  - id: scribeamerica
+    published: true
+    order: 4
+    category: industry
+    title: Medical Scribe
+    organization: ScribeAmerica
+    dates: 2019–2021
+    location: Multiple Locations
+    link: ""
+    summary: Medical transcription and clinical documentation in fast-paced healthcare settings. Built a sharp eye for precision, structured documentation, and translating complex clinical information accurately under pressure.
+    source_ref: content/_experience/industry/04-scribeamerica.md

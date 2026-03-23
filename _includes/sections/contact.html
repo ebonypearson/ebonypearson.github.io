@@ -1,0 +1,40 @@
+<section class="contact-section" id="contact">
+  <div class="contact-left">
+    <div>
+      <h2>Find<br><em>Ebony.</em></h2>
+      <p>
+        Connect with Ebony for research roles, applied strategy, product-facing work, speaking invitations, or collaboration.
+      </p>
+      <div class="contact-right">
+        <div class="contact-top" role="navigation" aria-label="Professional links">
+          {% for link in site.data.contact.links %}
+          <a class="contact-cta" href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.label }} - {{ link.text }}">
+            <span class="contact-cta-icon" aria-hidden="true">
+              <svg role="presentation" focusable="false">
+                {% if link.label == "Connect" %}
+                <use href="#icon-linkedin"></use>
+                {% elsif link.label == "GitHub" %}
+                <use href="#icon-github"></use>
+                {% else %}
+                <use href="#icon-vanderbilt"></use>
+                {% endif %}
+              </svg>
+            </span>
+            <span>
+              <span class="contact-cta-label">{{ link.label }}</span>
+              <span class="contact-cta-text">{{ link.text }}</span>
+            </span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- 
+    <div class="contact-footer">
+      <p>This portfolio is an ongoing project - content is still being developed.<br>
+      The design is intentional. The ideas are real.</p>
+      <br>
+      <p>See full site at <a class="text-link-underline" href="index.html">ebony.portfolio</a></p>
+    </div> -->

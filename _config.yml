@@ -1,0 +1,34 @@
+title: Ebony Pearson Portfolio
+description: Portfolio site for Ebony Pearson, Ph.D.
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  research:
+    output: false
+    sort_by: sort_date
+  experience:
+    output: false
+    sort_by: order
+  projects:
+    output: false
+    sort_by: order
+
+collections_dir: content
+
+exclude:
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - TODO.md
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - examples/
