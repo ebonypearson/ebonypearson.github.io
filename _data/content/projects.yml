@@ -4,7 +4,7 @@ items:
     order: 1
     category: nlp
     title: How does digital text exposure shape comprehension outcomes?
-    organization: SRI STAR Lab × Vanderbilt
+    organization: ""
     tags:
       - NLP
       - Web Scraping
@@ -19,10 +19,8 @@ items:
     published: true
     order: 2
     category: cognition
-    title: How can speech data and evaluation methods improve AI speech systems?
-
-
-    organization: Vanderbilt University Medical Center
+    title: How can language data and evaluation methods improve AI systems?
+    organization: ""
     tags:
       - Speech Corpora
       - Annotation Design
@@ -37,7 +35,7 @@ items:
     order: 3
     category: cognition
     title: How can experimental data reveal how people interpret language in real time?
-    organization: Vanderbilt University
+    organization: ""
     tags:
       - Eye Tracking
       - Quantitative Analysis

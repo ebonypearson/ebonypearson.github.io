@@ -1158,7 +1158,7 @@ section {
   font-family: 'Barlow', sans-serif;
   font-size: clamp(1rem, 1.6vw, 1.25rem);
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.03em;
   line-height: 1.15;
 }
@@ -1184,6 +1184,7 @@ section {
   flex-wrap: wrap;
   gap: 0.4rem;
   margin-top: 0.5rem;
+  justify-content: center;
 }
 
 .project-tag {
