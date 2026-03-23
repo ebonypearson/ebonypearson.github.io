@@ -1,0 +1,27 @@
+# AI agent directories
+.claude/
+.codex/
+.gemini/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.openground/
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if a build tool is added later)
+node_modules/
+
+# Jekyll / Bundler
+.bundle/
+.jekyll-cache/
+_site/
+vendor/bundle/
+
+# Git worktrees
+.worktrees/
