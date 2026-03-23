@@ -142,8 +142,7 @@ section {
   border-left: 3px solid var(--pink-acc);
   padding-left: 1.25rem;
   
-  /* The Fix: Change this to center the whole block */
-  align-self: center; 
+  align-self: flex-start;
   
   /* Make sure margin is 0 so it doesn't get pushed off-center artificially */
   margin-left: 0; 
@@ -154,11 +153,12 @@ section {
 
 .about-edu-item {
   display: flex;
-  align-items: flex-start; /* Keeps icons at the top of the text */
+  align-items: flex-start;
   gap: 0.6rem;
   font-family: 'Barlow', sans-serif;
   font-style: italic;
   font-weight: 700;
+  font-size: clamp(1.1rem, 1.4vw, 1.35rem);
   line-height: 1.4;
 }
 
