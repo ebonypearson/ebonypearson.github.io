@@ -89,17 +89,26 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   gap: 2rem;
 }
+
 
 .about-text .big-heading {
   font-family: 'Barlow', sans-serif;
   font-size: clamp(2.6rem, 5vw, 4.4rem);
   font-weight: 900;
-  line-height: 1.05;
+  line-height: 0.9;
   text-transform: uppercase;
+  width: 100%;
+  text-align: center; 
+  margin-bottom: -1rem;
+}
+
+.about-text .big-heading em {
+  font-style: italic;
+  color: var(--pink-acc);
 }
 
 .about-text .big-heading em {
@@ -110,7 +119,7 @@ section {
 .about-text p {
   font-size: clamp(1.1rem, 1.4vw, 1.35rem);
   line-height: 1.75;
-  max-width: 38ch;
+  /* max-width: 38ch; */
 }
 
 .callout-tip {
@@ -121,22 +130,25 @@ section {
   padding-left: 1rem;
   line-height: 1.5;
 }
+
+
+
 .about-education {
   display: flex;
   flex-direction: column;
-  /* This keeps the items aligned to the left bar */
-  align-items: flex-start; 
+  align-items: flex-start; /* Keeps the text/icons inside aligned with each other */
   gap: 0.75rem;
-  
-  /* The Bar */
   border-left: 3px solid var(--pink-acc);
   padding-left: 1.25rem;
   
-  /* Centering the container itself */
-  margin: 1.5rem auto;
-  width: fit-content; /* Critical: This makes 'margin: auto' work */
+  /* The Fix: Change this to center the whole block */
+  align-self: center; 
   
-  text-align: left; /* Keeps text left-aligned if it wraps */
+  /* Make sure margin is 0 so it doesn't get pushed off-center artificially */
+  margin-left: 0; 
+  
+  width: fit-content;
+  text-align: left; 
 }
 
 .about-edu-item {
@@ -167,6 +179,8 @@ section {
   font-style: normal;
   font-size: 0.85em;
   opacity: 0.7;
+  align-items: center; 
+
 }
 
 .btn {
