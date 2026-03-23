@@ -1,4 +1,4 @@
-<section class="publications-section publications-section-live" id="publications">
+<!-- <section class="publications-section publications-section-live" id="publications">
   <div class="publications-header">
     <h2 class="publications-title">Presentations &amp; Publications</h2>
   </div>
@@ -38,4 +38,26 @@
   <p class="publications-reference-link-wrap">
     <a class="publications-reference-link" href="{{ '/publications-reference.html' | relative_url }}" target="_blank" rel="noopener">View frozen reference version ↗</a>
   </p>
+</section> -->
+
+<section class="publications-section publications-section-live" id="publications">
+  <div class="publications-header">
+    <h2 class="publications-title">Presentations &amp; Publications</h2>
+  </div>
+
+  <div class="publications-list">
+    {% assign publications_sorted = site.data.content.research.items | where: "published", true | sort: "sort_date" | reverse %}
+    {% for item in publications_sorted %}
+    {% assign current_year = item.year | split: " " | first %}
+    <div class="publications-item">
+      <span class="publications-year">{{ current_year }}</span>
+      <div class="publications-content">
+        <h3>{{ item.title }}</h3>
+        {% if item.authors %}<p class="publications-authors">{{ item.authors }}</p>{% endif %}
+        {% if item.organization %}<p class="publications-venue">{{ item.organization }}{% if item.location and item.location != "" %} · {{ item.location }}{% endif %}{% if item.link and item.link != "" %} — <a href="{{ item.link }}" class="publications-link" target="_blank" rel="noopener">{{ item.link }}</a>{% endif %}</p>{% endif %}
+      </div>
+      <!-- <span class="publications-type">{{ item.type }}</span> -->
+    </div>
+    {% endfor %}
+  </div>
 </section>

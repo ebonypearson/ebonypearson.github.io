@@ -12,7 +12,9 @@
           <a class="contact-cta" href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.label }} - {{ link.text }}">
             <span class="contact-cta-icon" aria-hidden="true">
               <svg role="presentation" focusable="false">
-                {% if link.label == "Connect" %}
+                {% if link.label == "Email" %}
+                <use href="#icon-email"></use>
+                {% elsif link.label == "Connect" %}
                 <use href="#icon-linkedin"></use>
                 {% elsif link.label == "GitHub" %}
                 <use href="#icon-github"></use>

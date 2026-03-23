@@ -1351,6 +1351,11 @@ section {
   border-right: 1px solid var(--line);
 }
 
+.contact-faq-left p {
+  text-align: center;
+  max-width: none;
+}
+
 .contact-faq-container {
   margin-top: 0;
   padding: 0 3rem 2.5rem;
