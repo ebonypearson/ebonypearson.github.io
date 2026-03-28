@@ -80,6 +80,7 @@
     writing-mode: horizontal-tb;
     transform: none;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
@@ -117,6 +118,6 @@
 
 @media (max-width: 560px) {
   .side-nav nav {
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 }
