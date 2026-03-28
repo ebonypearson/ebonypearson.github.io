@@ -25,7 +25,6 @@
 
 .t-row-hanging {
   position: relative;
-  padding-bottom: 0.58em;
 }
 
 .t-row-text {
@@ -78,10 +77,6 @@
 }
 
 @media (max-width: 860px) {
-  .t-row-hanging {
-    padding-bottom: 0.5em;
-  }
-
   .hero-brain {
     left: 45%;
     top: 70%;
