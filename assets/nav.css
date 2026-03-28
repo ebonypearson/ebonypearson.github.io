@@ -109,8 +109,9 @@
 
   .top-cta {
     position: static;
-    display: inline-block;
-    margin: 0.75rem 1rem;
+    display: block;
+    text-align: right;
+    padding: 0.75rem 1rem;
   }
 }
 
