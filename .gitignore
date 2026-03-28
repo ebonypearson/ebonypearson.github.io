@@ -22,3 +22,4 @@ node_modules/
 .jekyll-cache/
 _site/
 vendor/bundle/
+.playwright-mcp/
